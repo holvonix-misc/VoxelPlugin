@@ -7,6 +7,7 @@ public class VoxelGraphEditor : ModuleRules
 {
     public VoxelGraphEditor(ReadOnlyTargetRules Target) : base(Target)
     {
+        CppStandard = CppStandardVersion.Cpp17;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         bEnforceIWYU = true;
         bLegacyPublicIncludePaths = false;

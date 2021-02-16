@@ -7,6 +7,7 @@ public class VoxelExamples : ModuleRules
 {
     public VoxelExamples(ReadOnlyTargetRules Target) : base(Target)
 {
+        CppStandard = CppStandardVersion.Cpp17;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         bEnforceIWYU = true;
         bLegacyPublicIncludePaths = false;

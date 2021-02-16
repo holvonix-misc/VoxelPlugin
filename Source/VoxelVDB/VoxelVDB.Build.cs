@@ -7,6 +7,7 @@ public class VoxelVDB : ModuleRules
 {
     public VoxelVDB(ReadOnlyTargetRules Target) : base(Target)
 {
+        CppStandard = CppStandardVersion.Cpp17;
         // OpenVDB/boost requires to have both of these on
         // RTTI is a global setting in packaged games: as such, this module is editor only by default
         // Set it to Runtime in Voxel.uplugin if you wish to use VDB at runtime
